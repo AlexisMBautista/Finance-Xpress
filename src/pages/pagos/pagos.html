@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      <strong>{{'Pages.Clientes.CobrarClientes.TITLE' | translate }}</strong>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+   
+  <br>
+  <br>
+  <br>
+  <ion-card> 
+    <ion-card>
+        <ion-item-divider color="light">{{'Pages.Clientes.CobrarClientes.TITLE_2' | translate }}</ion-item-divider>
+        <ion-input type="text" value="" [(ngModel)]="list.cantidadAPagar" disabled="true"></ion-input>
+      <ion-item-divider color="light">{{'Pages.Clientes.CobrarClientes.TITLE_3' | translate }}</ion-item-divider>
+      <ion-input type="text" value="" [(ngModel)]="list.cantidad" ></ion-input>
+      
+    </ion-card>  
+
+
+    <br>
+    <button ion-button color="primary" style="height:35px;width:200px;left:55px" (click)="regresar()"
+      round>{{'Pages.Clientes.CobrarClientes.BTN_CANCELAR' | translate }}</button>
+    <button ion-button color="primary" style="height:30px;width:200px;left:55px" (click)="insertarPagos(list)" round>{{'Pages.Clientes.CobrarClientes.BTN_ACEPTAR' | translate }}</button>
+
+    <br>
+    <br>
+
+  </ion-card>
+
+
+
+</ion-content>

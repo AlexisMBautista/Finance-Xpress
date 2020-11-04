@@ -1,0 +1,28 @@
+<ion-header>
+
+  <ion-navbar  color="primary">
+    <ion-title>
+      <span ion-text>{{'Pages.Perfil.CambiarNombre.TITLE' | translate }}</span>
+    </ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<ion-grid>
+  <ion-row>
+    
+    <ion-list col-12 col-sm-12 col-md-12>
+      <ion-item>
+        <ion-label floating>{{'Pages.Perfil.CambiarNombre.INP_NOMBRE' | translate }}</ion-label>
+        <ion-input type="text" [(ngModel)]="list.d"></ion-input>
+      </ion-item>
+    </ion-list>
+    <div padding col-12>
+      <button ion-button full class="primary" (click)= "cambiarUsuario()">{{'Pages.Perfil.CambiarNombre.BTN_GUARDAR' | translate }}</button>
+    </div>
+  </ion-row>
+</ion-grid>
+</ion-content>
+

@@ -1,0 +1,79 @@
+<div *ngIf= "showSplash" class="splash">
+  <div class="spinner"></div>
+</div>
+  
+  <ion-menu side="left" id="authenticated" [content]="content" type="overlay">
+    <ion-header>
+      <ion-toolbar class="user-profile">
+  
+        <ion-grid>
+          <ion-row>
+            <ion-col col-4>
+                <div class="user-avatar">
+                  <img src="../assets/icon.png">
+                </div>
+            </ion-col>
+            <ion-col padding-top col-8>
+              <h2 ion-text class="no-margin bold text-white">
+                  {{'Pages.Principal.TITLE' | translate}}
+              </h2>
+              <span ion-text color="light">{{'Pages.Principal.TITLE' | translate}}</span>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-toolbar>
+    </ion-header>
+  
+    <ion-content color="primary">
+      <ion-list class="user-list">
+        <button ion-item menuClose class="text-1x" (click)="openHome()">
+          <ion-icon item-left name="home" color="primary"></ion-icon>
+          <span ion-text color="primary">{{'Pages.Principal.TITLE_PRINCIPAL' | translate}}</span>
+        </button>
+  
+        <button ion-item menuClose class="text-1x" (click)="openPerfil()">
+          <ion-icon item-left name="contact" color="primary"></ion-icon>
+          <span ion-text color="primary">{{ 'Pages.Principal.TITLE_PERFIL' | translate}}</span>
+        </button>
+
+        <button ion-item menuClose class="text-1x" (click)="openCliente()">
+            <ion-icon item-left name="person" color="primary"></ion-icon>
+            <span ion-text color="primary">{{ 'Pages.Principal.TITLE_CLIENTES' | translate}}</span>
+          </button>
+  
+        <button ion-item menuClose class="text-1x" (click)="openAvales()">
+          <ion-icon item-left name="contacts" color="primary"></ion-icon>
+          <span ion-text color="primary">{{'Pages.Principal.TITLE_AVALES' | translate}}</span>
+        </button>
+  
+        <button ion-item menuClose class="text-1x" (click)="openConfiguracion()">
+          <ion-icon item-left name="settings" color="primary"></ion-icon>
+          <span ion-text color="primary">{{'Pages.Principal.TITLE_CONFIGURACION' | translate}}</span>
+        </button>
+  
+        <button ion-item menuClose class="text-1x" (click)="openAyuda()">
+          <ion-icon item-left name="help-circle" color="primary"></ion-icon>
+          <span ion-text color="primary">{{'Pages.Principal.TITLE_AYUDA' | translate}}</span>
+        </button>
+  
+        <button ion-item menuClose class="text-1x" (click)="openAcercaDe()">
+          <ion-icon item-left name="information-circle" color="primary"></ion-icon>
+          <span ion-text color="primary">{{'Pages.Principal.TITLE_ACERCADE' | translate}}</span>
+        </button>
+  
+  
+        <button ion-item menuClose class="text-1x" (click)="logout() ">
+          <ion-icon item-left name="log-out" color="primary"></ion-icon>
+          <span ion-text color="primary">{{'Pages.Principal.TITLE_SALIR' | translate}}</span>
+        </button>
+      </ion-list>
+  
+  
+    </ion-content>
+  
+  
+  
+  
+  </ion-menu>
+  
+  <ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

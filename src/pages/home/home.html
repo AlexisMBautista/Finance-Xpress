@@ -1,0 +1,36 @@
+<!-- -->
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      <strong>{{'Pages.Home.TITLE' | translate}}</strong>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="animated fadeIn common-bg">
+
+  
+  <ion-card>
+    
+        <ion-item-divider color="light">{{'Pages.Home.TOTALCLIENTE' | translate }}</ion-item-divider>
+        <ion-item-divider color="secondary">{{ detailsAgent.Clientes }}</ion-item-divider>
+  
+        <ion-item-divider color="light">{{'Pages.Home.CLIENTESCOBRADOS' | translate }}</ion-item-divider>
+        <ion-item-divider color="secondary" >{{ detailsAgent.Pagos }}</ion-item-divider> 
+
+        <ion-item-divider color="light">{{'Pages.Home.COBRADOTOTAL' | translate }}</ion-item-divider>
+        <ion-item-divider color="secondary" >{{ detailsAgent.Cobrados }}</ion-item-divider>
+    
+        <ion-item-divider color="light">{{'Pages.Home.DEBITO' | translate }}</ion-item-divider>
+        <ion-item-divider color="secondary" >{{ detailsAgent.Debito }}</ion-item-divider> 
+
+        <ion-item-divider color="light">{{'Pages.Home.RESTANTE' | translate }}</ion-item-divider>
+        <ion-item-divider color="secondary" >{{ detailsAgent.Restante }}</ion-item-divider> 
+           
+  </ion-card>   
+
+
+</ion-content>

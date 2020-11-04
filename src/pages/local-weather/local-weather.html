@@ -1,0 +1,24 @@
+<ion-header>
+        <ion-navbar color="primary">
+            <button ion-button menuToggle>
+                <ion-icon name="menu"></ion-icon>
+            </button>
+            <ion-title>{{'Pages.Perfil.PrincipalPerfil.TITLE' | translate}}</ion-title>
+        </ion-navbar>
+    </ion-header>
+    
+    <ion-content>
+    
+        <ion-list>
+            <button ion-item (click)="openNombre()" icon-start>
+                <ion-icon name="create" item-start></ion-icon>
+                {{'Pages.Perfil.PrincipalPerfil.CAMBIONOMBRE' | translate}}
+            </button>
+    
+            <button ion-item (click)="openPassword()" icon-start>
+                <ion-icon name="create" item-start></ion-icon>
+                {{'Pages.Perfil.PrincipalPerfil.CAMBIOCONTRASENIA' | translate}}
+            </button>
+        </ion-list>  
+    
+    </ion-content>

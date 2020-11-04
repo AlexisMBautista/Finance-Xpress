@@ -1,0 +1,113 @@
+{
+    "Pages": {
+      "Home":{
+        "TITLE" : "Finance",
+        "TOTALCLIENTE" : "Total de Clientes",
+        "CLIENTESCOBRADOS" : "Clientes Cobrados",
+        "COBRADOTOTAL" : "Cobranza Total",
+        "DEBITO" : "Debido",
+        "FINALIZAR" : "Semana Finalizada",
+        "RESTANTE" : "Restante"
+      },
+      "Principal": {
+        "TITLE": "Agencia",
+        "TITLE_PRINCIPAL": "Inicio",
+        "TITLE_PERFIL": "Perfil",
+        "TITLE_CLIENTES": "Clientes",
+        "TITLE_AGENCIAS": "Agencias",
+        "TITLE_AVALES": "Avales",
+        "TITLE_CONFIGURACION": "Configuración",
+        "TITLE_AYUDA": "Ayuda",
+        "TITLE_ACERCADE": "Acerca de",
+        "TITLE_SALIR": "Cerrar Sesión"
+      },
+      "Perfil": {
+        "PrincipalPerfil":{
+          "TITLE" : "Perfil",
+          "CAMBIONOMBRE": "Cambiar Nombre",
+          "CAMBIOCONTRASENIA" : "Cambiar Contraseña"
+        },
+        "CambiarContrasenia":{
+          "TITLE" : "Cambiar Contraseña",
+          "INP_ACTUAL" : "Contraseña Actual",
+          "INP_REPETIR" : "Contraseña Nueva",
+          "INP_RCONTRASENIA" : "Repita la Contraseña",
+          "BTN_GUARDAR" : "Guardar Cambios"
+        },
+        "CambiarNombre":{
+          "TITLE" : "Cambiar Nombre",
+          "INP_NOMBRE" : "Nombre",
+          "BTN_GUARDAR" : "Guardar Cambios"
+        }
+      },
+      "Clientes": {
+        "PrincipalClientes": {
+          "TITLE": "Clientes",
+          "NOTARJETA": "Numero de Tarjeta",
+          "COBRAR" : "Cobrar"
+        },
+        "CobrarClientes": {
+          "TITLE": "Pagos",
+          "TITLE_2" : "Faltante",
+          "TITLE_3": "Monto a Cobrar",
+          "BTN_CANCELAR": "Cancelar",
+          "BTN_ACEPTAR" : "Guardar"
+        },
+        "InformacionCliente" : {
+          "TITLE" : "Informacion General",
+          "TITLE_CLIENTE" : "Clientes",
+          "NOTARJETA" : "Numero de Tarjeta",
+          "ASENTAMIENTO_CLIENTE" : "Asentamiento",
+          "TELEFONO": "Telefono",
+          "REFERENCIA": "Referencia",
+          "DIAPAGO": "Dia del Pago",
+          "PRIMERPAGO" : "Primer Pago",
+          "SEMANAS" : "Semanas",
+          "SEMANASRESTANTES": "Semanas Restantes",
+          "CARGA" : "Cargo",
+          "PAGOSEMANAL": "Pago Semanal",
+          "FALTANTE" : "Faltante",
+          "TOTALPAGA" : "Total a Pagar",
+          "TITLE_AVAL" : "Aval",
+          "ASENTAMIENTO" : "Asentamiento",
+          "TELEFONO_AVAL" : "Telefono"
+        }
+      },
+      "VALIDACIONES": {
+        "NUMEROS": {},
+        "LETRAS": {},
+        "REQUERIMIENTOS": {
+          "FORM_CAMPO": "El Campo es Requerido",
+          "FORM_LETRAS": "El Numero de Caracteres Permitidos es de 4",
+          "FORM_LETRAS2": "El Numero de Caracteres Permitidos es de 10",
+          "FORM_NUMEROS": "Ingrese Numeros",
+          "FORM_LETRASR": "Solo se Permiten Letras",
+          "FORM_PASS" : "La contraseña debe ser superior a 4 caracteres, con letras y números."
+        }
+      },
+      "Avales": {
+        "PrincipalAvales": {
+          "TITLE": "Avales",
+          "NOTARJETA": "Numero de Tarjeta",
+          "BTN_EDITAR": "Editar"
+        },
+        "InformacionAval": {
+          "TITLE": "Información General",
+          "TITLE2": "Aval",
+          "DIRECCION": "Dirección",
+          "TELEFONO": "Telefono"
+        }
+      },
+      "Configuracion": {
+        "TITLE": "Configuración",
+        "IDIOMA": "Idioma"
+      },
+      "Ayuda": {
+        "TITLE": "Ayuda"
+      },
+      "AcercaDe": {
+        "TITLE": "Acerca de"
+      },
+      "Salir": {}
+    }
+  }

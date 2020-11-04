@@ -1,0 +1,113 @@
+{
+    "Pages": {
+      "Home":{
+        "TITLE" : "Finance",
+        "TOTALCLIENTE" : "Total of Customers",
+        "CLIENTESCOBRADOS" : "Clientes Cobrados",
+        "COBRADOTOTAL" : "Customers Collected",
+        "DEBITO" : "Debit",
+        "FINALIZAR" : "Completed Week",
+        "RESTANTE" : "Remaining"
+      },
+      "Principal": {
+        "TITLE": "Agency",
+        "TITLE_PRINCIPAL": "Home",
+        "TITLE_PERFIL": "Profile",
+        "TITLE_CLIENTES": "Customers",
+        "TITLE_AGENCIAS": "Agencies",
+        "TITLE_AVALES": "Avales",
+        "TITLE_CONFIGURACION": "Configuration",
+        "TITLE_AYUDA": "Help",
+        "TITLE_ACERCADE": "Abount",
+        "TITLE_SALIR": "Sign off"
+      },
+      "Perfil": {
+        "PrincipalPerfil":{
+          "TITLE" : "Profile",
+          "CAMBIONOMBRE": "Change Name",
+          "CAMBIOCONTRASENIA" : "Change Password"
+        },
+        "CambiarContrasenia":{
+          "TITLE" : "Change Password",
+          "INP_ACTUAL" : "Current Password",
+          "INP_REPETIR" : "New Password",
+          "INP_RCONTRASENIA" : "Repeat Password",
+          "BTN_GUARDAR" : "Save Change"
+        },
+        "CambiarNombre":{
+          "TITLE" : "Change Name",
+          "INP_NOMBRE" :"Name",
+          "BTN_GUARDAR" : "Save Change"
+        }
+      },
+      "Clientes": {
+        "PrincipalClientes": {
+          "TITLE": "Customers",
+          "NOTARJETA": "Card number",
+          "COBRAR" : "Charge"
+        },
+        "CobrarClientes": {
+          "TITLE": "Payments",
+          "TITLE_2" : "Missing",
+          "TITLE_3": "Amount to Collect",
+          "BTN_CANCELAR": "Cancel",
+          "BTN_ACEPTAR" : "Save"
+        },
+        "InformacionCliente" : {
+          "TITLE" : "General information",
+          "TITLE_CLIENTE" : "Customers",
+          "NOTARJETA" : "Card Number",
+          "ASENTAMIENTO_CLIENTE" : "Settlement",
+          "TELEFONO": "Telephone",
+          "REFERENCIA": "Reference",
+          "DIAPAGO": "Payment Day",
+          "PRIMERPAGO" : "First payment",
+          "SEMANAS" : "Weeks",
+          "SEMANASRESTANTES": "Remaining Weeks",
+          "CARGA" : "Position",
+          "PAGOSEMANAL": "Weekly payment",
+          "FALTANTE" : "Missing",
+          "TOTALPAGA" : "Total to pay",
+          "TITLE_AVAL" : "Aval",
+          "ASENTAMIENTO" : "Settlement",
+          "TELEFONO_AVAL" : "Telephone"
+        }
+      },
+      "VALIDACIONES": {
+        "NUMEROS": {},
+        "LETRAS": {},
+        "REQUERIMIENTOS": {
+          "FORM_CAMPO": "The Field is Required",
+          "FORM_LETRAS2": "The Minimum Number of Characters Allowed is of Ten.",
+          "FORM_LETRASR": "Only Letters are Allowed",
+          "FORM_LETRAS": "The Minimum Number of Characters Allowed is of Four.",
+          "FORM_NUMEROS": "Enter Numbers",
+          "FORM_PASS": "The password must be greater than 4 characters, with letters and numbers."
+        }
+      },
+      "Avales": {
+        "PrincipalAvales": {
+          "TITLE": "Avales",
+          "NOTARJETA": "Card number",
+          "BTN_EDITAR": "Edit"
+        },
+        "InformacionAval": {
+          "TITLE": "General Information",
+          "TITLE2": "Avales",
+          "DIRECCION": "Address",
+          "TELEFONO": "Telephone"
+        }
+      },
+      "Configuracion": {
+        "TITLE": "Configuration",
+        "IDIOMA": "Language"
+      },
+      "Ayuda": {
+        "TITLE": "Help"
+      },
+      "AcercaDe": {
+        "TITLE": "About"
+      },
+      "Salir": {}
+    }
+  }
